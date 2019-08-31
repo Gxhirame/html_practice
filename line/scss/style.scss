@@ -1,6 +1,52 @@
 body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   background-color: aquamarine;
+
   header {
-    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+    height: 5%;
+    padding: 10px 10px 10px 10px;
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: auto;
+      li {
+        flex: 1;
+      }
+    }
+  }
+
+  .movie {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 400px;
+  }
+
+  main {
+    width: 100%;
+    height: 500px;
+    .news {
+      background-color: honeydew;
+      margin: auto;
+      width: 60%;
+      height: 400px;
+    }
+    .info {
+      background-color: khaki;
+      margin: auto;
+      width:60%;
+      height:20%;
+    }
+  }
+
+  footer {
+    background-color: greenyellow;
+    width: 100%;
+    height: 5%;
+    padding: 10px 10px 10px 10px;
   }
 }

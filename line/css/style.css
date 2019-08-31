@@ -1,4 +1,39 @@
 body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   background-color: aquamarine; }
   body header {
-    display: flex; }
+    background-color: aliceblue;
+    width: 100%;
+    height: 5%;
+    padding: 10px 10px 10px 10px; }
+    body header ul {
+      display: flex;
+      list-style-type: none;
+      margin: auto; }
+      body header ul li {
+        flex: 1; }
+  body .movie {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 400px; }
+  body main {
+    width: 100%;
+    height: 500px; }
+    body main .news {
+      background-color: honeydew;
+      margin: auto;
+      width: 60%;
+      height: 400px; }
+    body main .info {
+      background-color: khaki;
+      margin: auto;
+      width: 60%;
+      height: 20%; }
+  body footer {
+    background-color: greenyellow;
+    width: 100%;
+    height: 5%;
+    padding: 10px 10px 10px 10px; }
